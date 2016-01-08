@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : 0,
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92AB08F0-60DD-42D2-9B30-A75BC73F5D1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : "ml-examples-oF\/addons\/ofxZmq\/",
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : "ml-examples-oF\/addons\/ofxPubSubOsc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZmqVideoStreamer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZmqVideoStreamer\/ZmqVideoStreamer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/satoruhiga\/ofxZmq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "447998D83939BB7F25EB9B445BB8EECEBBAD7456"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/2bbb\/ofxPubSubOsc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E54B1843C52D9ECF8AF00D04C332213347A4D63"
+    }
+  ]
+}
