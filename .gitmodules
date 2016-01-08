@@ -1,0 +1,6 @@
+[submodule "addons/ofxPubSubOsc"]
+	path = addons/ofxPubSubOsc
+	url = https://github.com/2bbb/ofxPubSubOsc.git
+[submodule "addons/ofxZmq"]
+	path = addons/ofxZmq
+	url = https://github.com/satoruhiga/ofxZmq.git
