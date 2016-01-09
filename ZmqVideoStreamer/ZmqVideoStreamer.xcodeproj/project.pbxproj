@@ -36,6 +36,7 @@
 		4F69D8637AE65913613C02E1 /* v2_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 694618F477A124489712E184 /* v2_decoder.cpp */; };
 		510CAFE035E576A4E1502D52 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6DEF695B88BA5FAACEAA937 /* UdpSocket.cpp */; };
 		5864AD82E20F15536D054EA3 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF49D76C45D5DB505A234880 /* ofxOscMessage.cpp */; };
+		5A1E2AB932796C20061BED4D /* ofxTrueTypeFontUL2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9D2B145F803A2A53487CE /* ofxTrueTypeFontUL2.cpp */; };
 		5E35EBDA68E28FBACFEBBBC2 /* socks_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0250C85667A5B4860B8BDA6 /* socks_connecter.cpp */; };
 		5ED39C83367CAAD766C3F3FB /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E053AFC12C899435A216000D /* address.cpp */; };
 		6090B324CCD53F994EE648F7 /* zmq_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67459FD2CE1939F30E4028B6 /* zmq_utils.cpp */; };
@@ -160,6 +161,7 @@
 		13E03F62C6DEA8B74D3C98F4 /* i_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_encoder.hpp; path = ../addons/ofxZmq/libs/zmq/src/i_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		141905B32F893AF7EE7548BD /* stream_engine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = stream_engine.cpp; path = ../addons/ofxZmq/libs/zmq/src/stream_engine.cpp; sourceTree = SOURCE_ROOT; };
 		15A71527BDE67F936EA417B7 /* tipc_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tipc_connecter.cpp; path = ../addons/ofxZmq/libs/zmq/src/tipc_connecter.cpp; sourceTree = SOURCE_ROOT; };
+		175EBE06F37225BDDF074710 /* hb-version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-version.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-version.h"; sourceTree = SOURCE_ROOT; };
 		178781751AB53C5356ADFA6B /* gssapi_server.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gssapi_server.hpp; path = ../addons/ofxZmq/libs/zmq/src/gssapi_server.hpp; sourceTree = SOURCE_ROOT; };
 		17E9FBE99BF927C5BBC9CCCF /* norm_engine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = norm_engine.cpp; path = ../addons/ofxZmq/libs/zmq/src/norm_engine.cpp; sourceTree = SOURCE_ROOT; };
 		18A23222F10588B45AA50894 /* tipc_address.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tipc_address.cpp; path = ../addons/ofxZmq/libs/zmq/src/tipc_address.cpp; sourceTree = SOURCE_ROOT; };
@@ -168,6 +170,7 @@
 		19647577777CB4D75511B299 /* gssapi_client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = gssapi_client.cpp; path = ../addons/ofxZmq/libs/zmq/src/gssapi_client.cpp; sourceTree = SOURCE_ROOT; };
 		198FAAEC3902B8F3E35BA930 /* tcp_address.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp_address.cpp; path = ../addons/ofxZmq/libs/zmq/src/tcp_address.cpp; sourceTree = SOURCE_ROOT; };
 		1B68694F49A8D1CE9CD3A112 /* socket_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socket_base.hpp; path = ../addons/ofxZmq/libs/zmq/src/socket_base.hpp; sourceTree = SOURCE_ROOT; };
+		1BAAD414080166122273F7EB /* hb-shape-plan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-shape-plan.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-shape-plan.h"; sourceTree = SOURCE_ROOT; };
 		1C3578B5E10AA14E4B13E4AC /* fd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fd.hpp; path = ../addons/ofxZmq/libs/zmq/src/fd.hpp; sourceTree = SOURCE_ROOT; };
 		1DC3B8A65B2D9D3ED42C9711 /* curve_client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = curve_client.cpp; path = ../addons/ofxZmq/libs/zmq/src/curve_client.cpp; sourceTree = SOURCE_ROOT; };
 		1E0602F90A31EDB9E2E77441 /* ofxOscPublisher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscPublisher.h; path = ../addons/ofxPubSubOsc/src/ofxOscPublisher.h; sourceTree = SOURCE_ROOT; };
@@ -179,11 +182,13 @@
 		2389A92524C85E38E2A54809 /* ofxOscSubscriber.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSubscriber.h; path = ../addons/ofxPubSubOsc/src/ofxOscSubscriber.h; sourceTree = SOURCE_ROOT; };
 		246CB09E5AA2622B31B63697 /* io_thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = io_thread.hpp; path = ../addons/ofxZmq/libs/zmq/src/io_thread.hpp; sourceTree = SOURCE_ROOT; };
 		25575E0B23CA783C0E9C955A /* ofxZmqSubscriber.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqSubscriber.cpp; path = ../addons/ofxZmq/src/ofxZmqSubscriber.cpp; sourceTree = SOURCE_ROOT; };
+		25A72C9EBC2D9E46298880E1 /* hb-ot.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-ot.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-ot.h"; sourceTree = SOURCE_ROOT; };
 		28105EE0726B9BC0E7283FFE /* plain_client.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = plain_client.hpp; path = ../addons/ofxZmq/libs/zmq/src/plain_client.hpp; sourceTree = SOURCE_ROOT; };
 		287D48DDE89D1D9D4FF0283C /* tcp_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tcp_connecter.hpp; path = ../addons/ofxZmq/libs/zmq/src/tcp_connecter.hpp; sourceTree = SOURCE_ROOT; };
 		28F886B40D7A8ABA27A59B02 /* ypipe.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ypipe.hpp; path = ../addons/ofxZmq/libs/zmq/src/ypipe.hpp; sourceTree = SOURCE_ROOT; };
 		295F566B518D5588F28C5320 /* ctx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ctx.cpp; path = ../addons/ofxZmq/libs/zmq/src/ctx.cpp; sourceTree = SOURCE_ROOT; };
 		29DE06AEA7EEBD68DA661A55 /* blob.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = blob.hpp; path = ../addons/ofxZmq/libs/zmq/src/blob.hpp; sourceTree = SOURCE_ROOT; };
+		2B648E7289CCC84906859447 /* hb-font.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-font.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-font.h"; sourceTree = SOURCE_ROOT; };
 		2BCF4FB55C8D07273EAEB7B2 /* precompiled.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = precompiled.cpp; path = ../addons/ofxZmq/libs/zmq/src/precompiled.cpp; sourceTree = SOURCE_ROOT; };
 		2C2E86E0E36216AC49776407 /* router.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = router.cpp; path = ../addons/ofxZmq/libs/zmq/src/router.cpp; sourceTree = SOURCE_ROOT; };
 		2D9AE4FDBA8792DC61A568D3 /* poll.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poll.hpp; path = ../addons/ofxZmq/libs/zmq/src/poll.hpp; sourceTree = SOURCE_ROOT; };
@@ -216,6 +221,7 @@
 		48974F980F51769171D0B2F5 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
 		4901D4C463325CEF9749F884 /* ypipe_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ypipe_base.hpp; path = ../addons/ofxZmq/libs/zmq/src/ypipe_base.hpp; sourceTree = SOURCE_ROOT; };
 		4923BE7210F5D921BCE309FE /* random.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = random.hpp; path = ../addons/ofxZmq/libs/zmq/src/random.hpp; sourceTree = SOURCE_ROOT; };
+		4926E808BB431D3988FA384D /* ofxTrueTypeFontUL2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTrueTypeFontUL2.h; path = ../addons/ofxTrueTypeFontUL2/src/ofxTrueTypeFontUL2.h; sourceTree = SOURCE_ROOT; };
 		49E8782FEF563D28AD9D353A /* mtrie.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mtrie.hpp; path = ../addons/ofxZmq/libs/zmq/src/mtrie.hpp; sourceTree = SOURCE_ROOT; };
 		4A063C8D8204B7E2225D78FE /* mechanism.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mechanism.hpp; path = ../addons/ofxZmq/libs/zmq/src/mechanism.hpp; sourceTree = SOURCE_ROOT; };
 		4C1FB22BC6DAAA5FB9B1A3A3 /* ipc_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ipc_connecter.hpp; path = ../addons/ofxZmq/libs/zmq/src/ipc_connecter.hpp; sourceTree = SOURCE_ROOT; };
@@ -243,6 +249,7 @@
 		65EEFA3DA3526E9CDD9C21F9 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscBundle.cpp; path = ../../../addons/ofxOsc/src/ofxOscBundle.cpp; sourceTree = SOURCE_ROOT; };
 		67459FD2CE1939F30E4028B6 /* zmq_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = zmq_utils.cpp; path = ../addons/ofxZmq/libs/zmq/src/zmq_utils.cpp; sourceTree = SOURCE_ROOT; };
 		6803DD9265882362EE7BAFD1 /* session_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = session_base.cpp; path = ../addons/ofxZmq/libs/zmq/src/session_base.cpp; sourceTree = SOURCE_ROOT; };
+		68F01AAF2A3D6E290A40F09D /* hb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hb.h; path = ../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb.h; sourceTree = SOURCE_ROOT; };
 		6943C91BF9178FC557EBA8D8 /* object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = object.cpp; path = ../addons/ofxZmq/libs/zmq/src/object.cpp; sourceTree = SOURCE_ROOT; };
 		694618F477A124489712E184 /* v2_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v2_decoder.cpp; path = ../addons/ofxZmq/libs/zmq/src/v2_decoder.cpp; sourceTree = SOURCE_ROOT; };
 		6A51C776A103D1F4C46AD2B8 /* mailbox.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mailbox.hpp; path = ../addons/ofxZmq/libs/zmq/src/mailbox.hpp; sourceTree = SOURCE_ROOT; };
@@ -269,6 +276,7 @@
 		7A7C5A36B9F9C8C3FE7CD328 /* socks_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socks_connecter.hpp; path = ../addons/ofxZmq/libs/zmq/src/socks_connecter.hpp; sourceTree = SOURCE_ROOT; };
 		7D33048A4B172F9AE8C595C7 /* gssapi_mechanism_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gssapi_mechanism_base.hpp; path = ../addons/ofxZmq/libs/zmq/src/gssapi_mechanism_base.hpp; sourceTree = SOURCE_ROOT; };
 		7D3C3CE7B6E90B90E9CE677D /* encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = encoder.hpp; path = ../addons/ofxZmq/libs/zmq/src/encoder.hpp; sourceTree = SOURCE_ROOT; };
+		7EA9D2B145F803A2A53487CE /* ofxTrueTypeFontUL2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxTrueTypeFontUL2.cpp; path = ../addons/ofxTrueTypeFontUL2/src/ofxTrueTypeFontUL2.cpp; sourceTree = SOURCE_ROOT; };
 		7F05B253BF9315CA17B899B9 /* null_mechanism.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = null_mechanism.hpp; path = ../addons/ofxZmq/libs/zmq/src/null_mechanism.hpp; sourceTree = SOURCE_ROOT; };
 		7F4DA7C17E9E13A710546BEE /* pgm_sender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_sender.cpp; path = ../addons/ofxZmq/libs/zmq/src/pgm_sender.cpp; sourceTree = SOURCE_ROOT; };
 		7FABB7EABF86FC1DF716E1AF /* ofxpubsubosc_settings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxpubsubosc_settings.h; path = ../addons/ofxPubSubOsc/src/details/ofxpubsubosc_settings.h; sourceTree = SOURCE_ROOT; };
@@ -285,13 +293,16 @@
 		857A2BAAF88AA9232361508A /* raw_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = raw_decoder.cpp; path = ../addons/ofxZmq/libs/zmq/src/raw_decoder.cpp; sourceTree = SOURCE_ROOT; };
 		87A899A4140FADD575552C85 /* norm_engine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = norm_engine.hpp; path = ../addons/ofxZmq/libs/zmq/src/norm_engine.hpp; sourceTree = SOURCE_ROOT; };
 		87C541C278DEB81BCAB401F8 /* mailbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mailbox.cpp; path = ../addons/ofxZmq/libs/zmq/src/mailbox.cpp; sourceTree = SOURCE_ROOT; };
+		87CCB54C093BF088063FCF82 /* hb-face.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-face.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-face.h"; sourceTree = SOURCE_ROOT; };
 		8A122096CA2020E5D290DF46 /* mutex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mutex.hpp; path = ../addons/ofxZmq/libs/zmq/src/mutex.hpp; sourceTree = SOURCE_ROOT; };
 		8B30E93FD3D3475EED522A0E /* ofxOscBundle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscBundle.h; path = ../../../addons/ofxOsc/src/ofxOscBundle.h; sourceTree = SOURCE_ROOT; };
 		8C75AFC8774A62495DD53464 /* ofxOscReceiver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscReceiver.h; path = ../../../addons/ofxOsc/src/ofxOscReceiver.h; sourceTree = SOURCE_ROOT; };
+		8E9740F0F1902D0BCA665806 /* hb-ot-layout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-ot-layout.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-ot-layout.h"; sourceTree = SOURCE_ROOT; };
 		90336C473B342C1F8D000B92 /* pgm_receiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_receiver.cpp; path = ../addons/ofxZmq/libs/zmq/src/pgm_receiver.cpp; sourceTree = SOURCE_ROOT; };
 		91BE9A9417876B72CD63E811 /* i_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_decoder.hpp; path = ../addons/ofxZmq/libs/zmq/src/i_decoder.hpp; sourceTree = SOURCE_ROOT; };
 		92F3EC3E54B8DCF166C0F579 /* v1_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_encoder.hpp; path = ../addons/ofxZmq/libs/zmq/src/v1_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		942FB967631ACFEA6B5C248A /* pgm_socket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_socket.cpp; path = ../addons/ofxZmq/libs/zmq/src/pgm_socket.cpp; sourceTree = SOURCE_ROOT; };
+		94498D171A5427D6D47B5389 /* hb-unicode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-unicode.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-unicode.h"; sourceTree = SOURCE_ROOT; };
 		9479BECAEE4CACFDB1EB52C6 /* socks.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socks.hpp; path = ../addons/ofxZmq/libs/zmq/src/socks.hpp; sourceTree = SOURCE_ROOT; };
 		954F7D8BEB69C8869246B31A /* ofxZmqPublisher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqPublisher.h; path = ../addons/ofxZmq/src/ofxZmqPublisher.h; sourceTree = SOURCE_ROOT; };
 		9740F663B645210E3751C0DF /* array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array.hpp; path = ../addons/ofxZmq/libs/zmq/src/array.hpp; sourceTree = SOURCE_ROOT; };
@@ -312,6 +323,7 @@
 		A83B522E6AB29A63DBD3DFB8 /* mtrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mtrie.cpp; path = ../addons/ofxZmq/libs/zmq/src/mtrie.cpp; sourceTree = SOURCE_ROOT; };
 		A8B6DCF51063E63A59F503CF /* xpub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = xpub.cpp; path = ../addons/ofxZmq/libs/zmq/src/xpub.cpp; sourceTree = SOURCE_ROOT; };
 		A955D9F8EA907DC72B080D3B /* thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = thread.hpp; path = ../addons/ofxZmq/libs/zmq/src/thread.hpp; sourceTree = SOURCE_ROOT; };
+		A956663A12CA3ABB44F5A553 /* hb-ot-tag.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-ot-tag.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-ot-tag.h"; sourceTree = SOURCE_ROOT; };
 		A9DCC43A9E7B441727CACD47 /* push.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = push.cpp; path = ../addons/ofxZmq/libs/zmq/src/push.cpp; sourceTree = SOURCE_ROOT; };
 		AB1E19F1025D6EF4186CCDEC /* own.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = own.cpp; path = ../addons/ofxZmq/libs/zmq/src/own.cpp; sourceTree = SOURCE_ROOT; };
 		AD85534D9D87306FAB3F26B6 /* ofxpubsubosc_subscribe_value_wrappers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxpubsubosc_subscribe_value_wrappers.h; path = ../addons/ofxPubSubOsc/src/details/ofxpubsubosc_subscribe_value_wrappers.h; sourceTree = SOURCE_ROOT; };
@@ -332,8 +344,10 @@
 		C0250C85667A5B4860B8BDA6 /* socks_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = socks_connecter.cpp; path = ../addons/ofxZmq/libs/zmq/src/socks_connecter.cpp; sourceTree = SOURCE_ROOT; };
 		C201A3BD73D4EF0B22BFD0CD /* options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = options.cpp; path = ../addons/ofxZmq/libs/zmq/src/options.cpp; sourceTree = SOURCE_ROOT; };
 		C2FAC65C491D4231379F3298 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = ../../../addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
+		C4320E559D8B5A4BFEA161F0 /* hb-set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-set.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-set.h"; sourceTree = SOURCE_ROOT; };
 		C4E056DE085EEBD39FA06656 /* sub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sub.hpp; path = ../addons/ofxZmq/libs/zmq/src/sub.hpp; sourceTree = SOURCE_ROOT; };
 		C58862C6D212C8E8A83810F4 /* ofxOscMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscMessage.h; path = ../../../addons/ofxOsc/src/ofxOscMessage.h; sourceTree = SOURCE_ROOT; };
+		C62F3350397B283115248250 /* hb-shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-shape.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-shape.h"; sourceTree = SOURCE_ROOT; };
 		C643E6337BC34D40BB9852E0 /* ipc_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ipc_connecter.cpp; path = ../addons/ofxZmq/libs/zmq/src/ipc_connecter.cpp; sourceTree = SOURCE_ROOT; };
 		C6937888E126BADC8777423B /* OscTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscTypes.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h; sourceTree = SOURCE_ROOT; };
 		C98A765A2559FB8F05BB5D81 /* push.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = push.hpp; path = ../addons/ofxZmq/libs/zmq/src/push.hpp; sourceTree = SOURCE_ROOT; };
@@ -343,7 +357,10 @@
 		CF78ED8EC7C14B851C6EED2A /* v1_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v1_decoder.cpp; path = ../addons/ofxZmq/libs/zmq/src/v1_decoder.cpp; sourceTree = SOURCE_ROOT; };
 		CFF570EC1A6563537C1128AE /* tcp_listener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp_listener.cpp; path = ../addons/ofxZmq/libs/zmq/src/tcp_listener.cpp; sourceTree = SOURCE_ROOT; };
 		D06BF6B283E3BE18B3F9C95B /* v1_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v1_encoder.cpp; path = ../addons/ofxZmq/libs/zmq/src/v1_encoder.cpp; sourceTree = SOURCE_ROOT; };
+		D290D590F55655387E4C0EE1 /* hb-ft.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-ft.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-ft.h"; sourceTree = SOURCE_ROOT; };
+		D3646DDEB175B29498F744D6 /* hb-deprecated.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-deprecated.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-deprecated.h"; sourceTree = SOURCE_ROOT; };
 		D45DD96076DBC737AA4AD9C7 /* ofxZmqPair.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqPair.cpp; path = ../addons/ofxZmq/src/ofxZmqPair.cpp; sourceTree = SOURCE_ROOT; };
+		D466A9A966A0C7024DD95535 /* hb-glib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-glib.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-glib.h"; sourceTree = SOURCE_ROOT; };
 		D6581088CCF27B139CB2C526 /* ofxZmqSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqSocket.h; path = ../addons/ofxZmq/src/ofxZmqSocket.h; sourceTree = SOURCE_ROOT; };
 		D9BFFBBF4CC43DEE890B3C3E /* OscTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscTypes.cpp; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp; sourceTree = SOURCE_ROOT; };
 		DC40F7F688D3756F0AF74FD9 /* fq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = fq.cpp; path = ../addons/ofxZmq/libs/zmq/src/fq.cpp; sourceTree = SOURCE_ROOT; };
@@ -375,14 +392,17 @@
 		F47C3E8A02702D573842F26E /* options.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = options.hpp; path = ../addons/ofxZmq/libs/zmq/src/options.hpp; sourceTree = SOURCE_ROOT; };
 		F4F5B6B8BA2BD52C646ED908 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
 		F561E6C05B432383C8905540 /* socks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = socks.cpp; path = ../addons/ofxZmq/libs/zmq/src/socks.cpp; sourceTree = SOURCE_ROOT; };
+		F570938B325C055E7152F73B /* hb-buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-buffer.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-buffer.h"; sourceTree = SOURCE_ROOT; };
 		F621C5F5A0A2A4FF0989F203 /* pgm_receiver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pgm_receiver.hpp; path = ../addons/ofxZmq/libs/zmq/src/pgm_receiver.hpp; sourceTree = SOURCE_ROOT; };
 		F7FBC56859535E597B24BB91 /* NetworkingUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkingUtils.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
 		F87C152A6FF9231CDB4852EA /* raw_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = raw_decoder.hpp; path = ../addons/ofxZmq/libs/zmq/src/raw_decoder.hpp; sourceTree = SOURCE_ROOT; };
+		FA23ED8498987622BCA055F3 /* hb-common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-common.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-common.h"; sourceTree = SOURCE_ROOT; };
 		FA3D7EF15F440A5AD1AA2E98 /* ypipe_conflate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ypipe_conflate.hpp; path = ../addons/ofxZmq/libs/zmq/src/ypipe_conflate.hpp; sourceTree = SOURCE_ROOT; };
 		FBE2822959219C3D3129892D /* zmq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = zmq.cpp; path = ../addons/ofxZmq/libs/zmq/src/zmq.cpp; sourceTree = SOURCE_ROOT; };
 		FC7C5191133EF5875A1882C5 /* session_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = session_base.hpp; path = ../addons/ofxZmq/libs/zmq/src/session_base.hpp; sourceTree = SOURCE_ROOT; };
 		FC872D2C738E174DBE23924C /* msg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = msg.cpp; path = ../addons/ofxZmq/libs/zmq/src/msg.cpp; sourceTree = SOURCE_ROOT; };
 		FD8E39A014AF4A94E519AAA4 /* ofxZmq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmq.cpp; path = ../addons/ofxZmq/src/ofxZmq.cpp; sourceTree = SOURCE_ROOT; };
+		FF412B796C0ACE994B09E700 /* hb-blob.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "hb-blob.h"; path = "../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include/hb-blob.h"; sourceTree = SOURCE_ROOT; };
 		FFBF49C2FC6F3F230A72DA1D /* zmq.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = zmq.h; path = ../addons/ofxZmq/libs/zmq/include/zmq.h; sourceTree = SOURCE_ROOT; };
 		FFC70864B65A927DAB7B706D /* poller_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = poller_base.cpp; path = ../addons/ofxZmq/libs/zmq/src/poller_base.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -449,6 +469,15 @@
 			name = osc;
 			sourceTree = "<group>";
 		};
+		30CBC220C5979B41DB7EC7F1 /* ofxTrueTypeFontUL2 */ = {
+			isa = PBXGroup;
+			children = (
+				5EDDE99450F5110F90F9A8F2 /* src */,
+				8DCB530C2FE17E079ACD4B4B /* libs */,
+			);
+			name = ofxTrueTypeFontUL2;
+			sourceTree = "<group>";
+		};
 		38871A5825686AE018EC2BF0 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,6 +509,15 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		5EDDE99450F5110F90F9A8F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9D2B145F803A2A53487CE /* ofxTrueTypeFontUL2.cpp */,
+				4926E808BB431D3988FA384D /* ofxTrueTypeFontUL2.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		641362CA659FAFEE4E81001B /* posix */ = {
 			isa = PBXGroup;
 			children = (
@@ -493,6 +531,7 @@
 			isa = PBXGroup;
 			children = (
 				8DDA9C41C26EDE5B60DB8821 /* ofxPubSubOsc */,
+				30CBC220C5979B41DB7EC7F1 /* ofxTrueTypeFontUL2 */,
 				27AF1DFCA99BACCFC13DF539 /* ofxZmq */,
 			);
 			name = local_addons;
@@ -533,6 +572,14 @@
 			name = oscpack;
 			sourceTree = "<group>";
 		};
+		8DCB530C2FE17E079ACD4B4B /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				E674E52365B550B831441CBD /* harfbuzz */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
 		8DDA9C41C26EDE5B60DB8821 /* ofxPubSubOsc */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +613,30 @@
 				9F7986DC4EB05E75FCE2C777 /* ofxOscSender.h */,
 			);
 			name = src;
+			sourceTree = "<group>";
+		};
+		C8C8D1EC4194DAC9DEA3203A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FF412B796C0ACE994B09E700 /* hb-blob.h */,
+				F570938B325C055E7152F73B /* hb-buffer.h */,
+				FA23ED8498987622BCA055F3 /* hb-common.h */,
+				D3646DDEB175B29498F744D6 /* hb-deprecated.h */,
+				87CCB54C093BF088063FCF82 /* hb-face.h */,
+				2B648E7289CCC84906859447 /* hb-font.h */,
+				D290D590F55655387E4C0EE1 /* hb-ft.h */,
+				D466A9A966A0C7024DD95535 /* hb-glib.h */,
+				8E9740F0F1902D0BCA665806 /* hb-ot-layout.h */,
+				A956663A12CA3ABB44F5A553 /* hb-ot-tag.h */,
+				25A72C9EBC2D9E46298880E1 /* hb-ot.h */,
+				C4320E559D8B5A4BFEA161F0 /* hb-set.h */,
+				1BAAD414080166122273F7EB /* hb-shape-plan.h */,
+				C62F3350397B283115248250 /* hb-shape.h */,
+				94498D171A5427D6D47B5389 /* hb-unicode.h */,
+				175EBE06F37225BDDF074710 /* hb-version.h */,
+				68F01AAF2A3D6E290A40F09D /* hb.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		D27B2221A225CA523C019676 /* src */ = {
@@ -622,6 +693,14 @@
 				38871A5825686AE018EC2BF0 /* libs */,
 			);
 			name = ofxOsc;
+			sourceTree = "<group>";
+		};
+		E674E52365B550B831441CBD /* harfbuzz */ = {
+			isa = PBXGroup;
+			children = (
+				C8C8D1EC4194DAC9DEA3203A /* include */,
+			);
+			name = harfbuzz;
 			sourceTree = "<group>";
 		};
 		FACB3911179234B00D19F734 /* src */ = {
@@ -927,6 +1006,7 @@
 				C4782ECC372420ACE0615B74 /* OscPrintReceivedElements.cpp in Sources */,
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
+				5A1E2AB932796C20061BED4D /* ofxTrueTypeFontUL2.cpp in Sources */,
 				C361DEF5570BE35FFA8F1939 /* ofxZmq.cpp in Sources */,
 				4CD86AABF5F02C5DE0373795 /* ofxZmqPair.cpp in Sources */,
 				0E2DCEAA12CFAE7F2EB2C520 /* ofxZmqPublisher.cpp in Sources */,
@@ -1059,6 +1139,12 @@
 					../../../addons/ofxOsc/src,
 					../addons/ofxPubSubOsc/src,
 					../addons/ofxPubSubOsc/src/details,
+					../addons/ofxTrueTypeFontUL2/libs,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx,
+					../addons/ofxTrueTypeFontUL2/src,
 					../addons/ofxZmq/libs,
 					../addons/ofxZmq/libs/zmq,
 					../addons/ofxZmq/libs/zmq/include,
@@ -1070,6 +1156,11 @@
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx/libharfbuzz.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -1108,6 +1199,12 @@
 					../../../addons/ofxOsc/src,
 					../addons/ofxPubSubOsc/src,
 					../addons/ofxPubSubOsc/src/details,
+					../addons/ofxTrueTypeFontUL2/libs,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx,
+					../addons/ofxTrueTypeFontUL2/src,
 					../addons/ofxZmq/libs,
 					../addons/ofxZmq/libs/zmq,
 					../addons/ofxZmq/libs/zmq/include,
@@ -1118,6 +1215,11 @@
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx/libharfbuzz.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -1150,6 +1252,12 @@
 					../../../addons/ofxOsc/src,
 					../addons/ofxPubSubOsc/src,
 					../addons/ofxPubSubOsc/src/details,
+					../addons/ofxTrueTypeFontUL2/libs,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx,
+					../addons/ofxTrueTypeFontUL2/src,
 					../addons/ofxZmq/libs,
 					../addons/ofxZmq/libs/zmq,
 					../addons/ofxZmq/libs/zmq/include,
@@ -1161,6 +1269,11 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx/libharfbuzz.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1192,6 +1305,12 @@
 					../../../addons/ofxOsc/src,
 					../addons/ofxPubSubOsc/src,
 					../addons/ofxPubSubOsc/src/details,
+					../addons/ofxTrueTypeFontUL2/libs,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/include,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib,
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx,
+					../addons/ofxTrueTypeFontUL2/src,
 					../addons/ofxZmq/libs,
 					../addons/ofxZmq/libs/zmq,
 					../addons/ofxZmq/libs/zmq/include,
@@ -1203,6 +1322,11 @@
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					../addons/ofxTrueTypeFontUL2/libs/harfbuzz/lib/osx/libharfbuzz.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;

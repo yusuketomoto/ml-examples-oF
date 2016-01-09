@@ -4,3 +4,6 @@
 [submodule "addons/ofxZmq"]
 	path = addons/ofxZmq
 	url = https://github.com/satoruhiga/ofxZmq.git
+[submodule "addons/ofxTrueTypeFontUL2"]
+	path = addons/ofxTrueTypeFontUL2
+	url = https://github.com/kentaroid/ofxTrueTypeFontUL2.git

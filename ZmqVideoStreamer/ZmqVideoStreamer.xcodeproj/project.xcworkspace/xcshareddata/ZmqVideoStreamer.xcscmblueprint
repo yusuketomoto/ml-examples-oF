@@ -1,20 +1,30 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : 0,
-    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : 0
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : 0,
+    "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8" : 0,
+    "FE071F2E712DEC94733C753359E9EFBB6F7808DA" : 0,
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92AB08F0-60DD-42D2-9B30-A75BC73F5D1B",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "72914DF6-1820-4C34-B3FE-9454D8C6BB99",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : "ml-examples-oF\/addons\/ofxZmq\/",
-    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : "ml-examples-oF\/addons\/ofxPubSubOsc\/"
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : "ml-examples-oF\/addons\/ofxPubSubOsc\/",
+    "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8" : "ml-examples-oF\/",
+    "FE071F2E712DEC94733C753359E9EFBB6F7808DA" : "ml-examples-oF\/addons\/ofxTrueTypeFontUL2\/",
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : "ml-examples-oF\/addons\/ofxZmq\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ZmqVideoStreamer",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZmqVideoStreamer\/ZmqVideoStreamer.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yusuketomoto\/ml-examples-oF.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/satoruhiga\/ofxZmq.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -24,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/2bbb\/ofxPubSubOsc.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E54B1843C52D9ECF8AF00D04C332213347A4D63"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kentaroid\/ofxTrueTypeFontUL2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FE071F2E712DEC94733C753359E9EFBB6F7808DA"
     }
   ]
 }
