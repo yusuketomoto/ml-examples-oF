@@ -1,0 +1,49 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B98E3CFEC6501A75CC8123C65E3620511AA66D21" : 0,
+    "183C10D9A6076F06706513038F80CE3782D38B30" : 0,
+    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : 0,
+    "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA7A5C65-F19E-46E6-87BF-61AD09094296",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B98E3CFEC6501A75CC8123C65E3620511AA66D21" : "..\/addons\/ofxDelaunay",
+    "183C10D9A6076F06706513038F80CE3782D38B30" : "..\/addons\/ofxVoronoi",
+    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "..\/..",
+    "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8" : "ml-examples-oF\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tSNEPlot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tSNEPlot\/tSNEPlot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kylemcdonald\/ofxVoronoi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "183C10D9A6076F06706513038F80CE3782D38B30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yusuketomoto\/ml-examples-oF.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B45F75FF94BED27292CAAC4EFC7911EBA5948A8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kylemcdonald\/openFrameworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DE9C8846D9375EAACFABA8963120E8E7719BAF5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kylemcdonald\/openFrameworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DE9C8846D9375EAACFABA8963120E8E7719BAF5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:obviousjim\/ofxDelaunay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B98E3CFEC6501A75CC8123C65E3620511AA66D21"
+    }
+  ]
+}
