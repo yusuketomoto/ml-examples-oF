@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 
 echo "ml-examples-oF: Checking for changes."
-git pull origin master # check for updates to the code
+git pull origin pull --recurse-submodules
 
-echo "ml-examples-oF: Initializing all submodules."
-git submodule init # registers submodules with git
+echo "ml-examples-oF: Initializing submodules."
+git submodule init
 
-git submodule update
-
-echo "ml-examples-oF: Pulling all submodules."
-git submodule foreach git pull origin master # iterate through submodules and pull updates
+echo "ml-examples-oF: Updating submodules."
+git submodule update --remote --merge
 
 cd addons/ofxCcv
 ./setup.sh
