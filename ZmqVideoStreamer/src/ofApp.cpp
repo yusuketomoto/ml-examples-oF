@@ -2,6 +2,7 @@
 #include "ofxPubSubOsc.h"
 #include "ofxTrueTypeFontUL2.h"
 #include "ofxZmq.h"
+#include <Poco/String.h>
 
 static float width = 800;
 static float height = 600;
@@ -76,12 +77,22 @@ public:
 	void dragEvent(ofDragInfo info) {
 		string path = info.files[0];
 		string ext = ofFilePath::getFileExt(path);
-		if (ext == "mp4" || ext == "mov") {
+        static vector<string> mov_exts = {"mp4", "mov"};
+        static vector<string> img_exts = {"jpg", "jpeg", "png"};
+        bool is_movie = [](const string& ext) {
+            for (auto& e: mov_exts) { if (Poco::icompare(e, ext)==0) return true; } return false;
+        } (ext);
+        bool is_image = [](const string& ext) {
+            for (auto& e: img_exts) { if (Poco::icompare(e, ext)==0) return true; } return false;
+        } (ext);
+        
+        if (is_movie) {
 			video.load(path);
 			video.play();
 			mode = VIDEO;
 			caption.clear();
-		} else if (ext == "jpg" || ext == "png" || ext == "jpeg") {
+        }
+        else if (is_image) {
 			image.load(path);
             image.setImageType(OF_IMAGE_COLOR);
 			sendPixels(image);
