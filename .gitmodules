@@ -10,3 +10,6 @@
 [submodule "addons/ofxCcv"]
 	path = addons/ofxCcv
 	url = https://github.com/kylemcdonald/ofxCcv.git
+[submodule "addons/ofxVoronoi"]
+	path = addons/ofxVoronoi
+	url = https://github.com/kylemcdonald/ofxVoronoi.git
