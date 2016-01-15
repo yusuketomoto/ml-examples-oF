@@ -83,6 +83,7 @@ public:
 			caption.clear();
 		} else if (ext == "jpg" || ext == "png" || ext == "jpeg") {
 			image.load(path);
+            image.setImageType(OF_IMAGE_COLOR);
 			sendPixels(image);
 			mode = IMAGE;
 			caption.clear();
