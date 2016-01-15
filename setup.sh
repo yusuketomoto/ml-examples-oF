@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "ml-examples-oF: Checking for changes."
-git pull origin pull --recurse-submodules
+git pull origin master --recurse-submodules
 
 echo "ml-examples-oF: Initializing submodules."
 git submodule init
