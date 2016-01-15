@@ -7,3 +7,6 @@
 [submodule "addons/ofxTrueTypeFontUL2"]
 	path = addons/ofxTrueTypeFontUL2
 	url = https://github.com/kentaroid/ofxTrueTypeFontUL2.git
+[submodule "addons/ofxCcv"]
+	path = addons/ofxCcv
+	url = https://github.com/kylemcdonald/ofxCcv.git
