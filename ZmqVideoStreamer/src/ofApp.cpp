@@ -1,3 +1,4 @@
+#include <Poco/String.h>
 #include "ofMain.h"
 #include "ofxPubSubOsc.h"
 #include "ofxTrueTypeFontUL2.h"
@@ -68,21 +69,37 @@ public:
 		ofSetColor(0, 120);
 		ofRectangle r = font.getStringBoundingBox(caption, 20, 40);
 		float padding = 5;
-		ofDrawRectangle(r.x - padding, r.y - padding,
-                        r.width + padding * 2, r.height + padding * 2);
+		ofDrawRectangle(r.x - padding, r.y - padding, r.width + padding * 2,
+						r.height + padding * 2);
 		ofPopStyle();
 		font.drawString(caption, 20, 40);
 	}
 	void dragEvent(ofDragInfo info) {
 		string path = info.files[0];
 		string ext = ofFilePath::getFileExt(path);
-		if (ext == "mp4" || ext == "mov") {
+		static vector<string> mov_exts = {"mp4", "mov"};
+		static vector<string> img_exts = {"jpg", "jpeg", "png"};
+		bool is_movie = [](const string& ext) {
+			for (auto& e : mov_exts) {
+				if (Poco::icompare(e, ext) == 0) return true;
+			}
+			return false;
+		}(ext);
+		bool is_image = [](const string& ext) {
+			for (auto& e : img_exts) {
+				if (Poco::icompare(e, ext) == 0) return true;
+			}
+			return false;
+		}(ext);
+
+		if (is_movie) {
 			video.load(path);
 			video.play();
 			mode = VIDEO;
 			caption.clear();
-		} else if (ext == "jpg" || ext == "png" || ext == "jpeg") {
+		} else if (is_image) {
 			image.load(path);
+			image.setImageType(OF_IMAGE_COLOR);
 			sendPixels(image);
 			mode = IMAGE;
 			caption.clear();
@@ -99,16 +116,19 @@ public:
 		float aspect_t = target.getWidth() / target.getHeight();
 		if (aspect < aspect_t) {
 			float scale = width / target.getWidth();
-			target.draw(width * 0.5, height * 0.5, width, target.getHeight() * scale);
+			target.draw(width * 0.5, height * 0.5, width,
+						target.getHeight() * scale);
 		} else {
 			float scale = height / target.getHeight();
-			target.draw(width * 0.5, height * 0.5, target.getWidth() * scale, height);
+			target.draw(width * 0.5, height * 0.5, target.getWidth() * scale,
+						height);
 		}
 	}
 	template <typename T>
 	void sendPixels(T& target) {
 		ofPixels pix = target.getPixels();
-		pix.resize(send_image_width, target.getHeight() * target.getHeight() / send_image_width);
+		pix.resize(send_image_width,
+				   target.getHeight() / target.getWidth() * send_image_width);
 		ofBuffer buf;
 		ofSaveImage(pix, buf);
 		pub.send(buf);
