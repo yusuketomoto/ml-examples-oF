@@ -108,7 +108,7 @@ public:
 	template <typename T>
 	void sendPixels(T& target) {
 		ofPixels pix = target.getPixels();
-		pix.resize(send_image_width, target.getHeight() * target.getHeight() / send_image_width);
+		pix.resize(send_image_width, target.getHeight() / target.getWidth() * send_image_width);
 		ofBuffer buf;
 		ofSaveImage(pix, buf);
 		pub.send(buf);
