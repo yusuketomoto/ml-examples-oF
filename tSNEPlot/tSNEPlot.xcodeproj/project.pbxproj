@@ -10,10 +10,8 @@
 		275EC33C1C4919750069416F /* Camera2d.h in Sources */ = {isa = PBXBuildFile; fileRef = 275EC33B1C4919750069416F /* Camera2d.h */; };
 		291C47A345F092C7A1D2658F /* wall_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EC22BF3CA8CB36F9F5EBC08 /* wall_2d.cpp */; };
 		302E5208BA172137BFC2B46F /* v_compute_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB391CCD362A34250B83E330 /* v_compute_2d.cpp */; };
-		5E39F94A08ADD7F0C2032152 /* Delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C93371FF2466553B4DA1D0B /* Delaunay.cpp */; };
 		63C85A4870B8E3B17DB80899 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA90031A974BD6F903EE307 /* common.cpp */; };
 		82D05F10C282F9BA98B7BDDA /* cell_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A39E2AA33EAA4B37B9A639 /* cell_2d.cpp */; };
-		9102D0609CDD0B902F138C68 /* ofxDelaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */; };
 		92BCCA040E3B098CAE459249 /* container_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6009E366434556042DF4A060 /* container_2d.cpp */; };
 		9D158DD3CEE509335B9EB460 /* v_base_wl_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F73C167A0FCDED8AA453E18 /* v_base_wl_2d.cpp */; };
 		A7C009DCC409CEB85B4C01C0 /* c_loops_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70B19F8572F0F6314DDEE499 /* c_loops_2d.cpp */; };
@@ -59,7 +57,6 @@
 		1B47E9B8C7E9D0E568834B87 /* v_base_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v_base_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/v_base_2d.cpp"; sourceTree = SOURCE_ROOT; };
 		1F73C167A0FCDED8AA453E18 /* v_base_wl_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v_base_wl_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/v_base_wl_2d.cpp"; sourceTree = SOURCE_ROOT; };
 		275EC33B1C4919750069416F /* Camera2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera2d.h; sourceTree = "<group>"; };
-		2C93371FF2466553B4DA1D0B /* Delaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Delaunay.cpp; path = ../../../addons/ofxDelaunay/libs/Delaunay/Delaunay.cpp; sourceTree = SOURCE_ROOT; };
 		389D28B22FB80BBC6638E1C2 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/config.h"; sourceTree = SOURCE_ROOT; };
 		41B73E51C036C2387D39040F /* ofxVoronoi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxVoronoi.h; path = ../../../addons/ofxVoronoi/src/ofxVoronoi.h; sourceTree = SOURCE_ROOT; };
 		6009E366434556042DF4A060 /* container_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = container_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/container_2d.cpp"; sourceTree = SOURCE_ROOT; };
@@ -71,14 +68,12 @@
 		7E7CB85539A34B3BA409D752 /* container_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = container_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/container_2d.h"; sourceTree = SOURCE_ROOT; };
 		7F0969D451EB670505B88A92 /* cell_nc_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = cell_nc_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/cell_nc_2d.cpp"; sourceTree = SOURCE_ROOT; };
 		86A86D803F9D27417A104AA6 /* ctr_boundary_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ctr_boundary_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/ctr_boundary_2d.h"; sourceTree = SOURCE_ROOT; };
-		8AA89AFF4E71C7EC510642B7 /* ofxDelaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDelaunay.h; path = ../../../addons/ofxDelaunay/src/ofxDelaunay.h; sourceTree = SOURCE_ROOT; };
 		905733309F828A78D0A13665 /* v_compute_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v_compute_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/v_compute_2d.h"; sourceTree = SOURCE_ROOT; };
 		98CA6FAB40BCED35782F09CA /* cell_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cell_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/cell_2d.h"; sourceTree = SOURCE_ROOT; };
 		9EC22BF3CA8CB36F9F5EBC08 /* wall_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = wall_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/wall_2d.cpp"; sourceTree = SOURCE_ROOT; };
 		A5A39E2AA33EAA4B37B9A639 /* cell_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = cell_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/cell_2d.cpp"; sourceTree = SOURCE_ROOT; };
 		AFE290BAF4E7BEC270850BF5 /* wall_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = wall_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/wall_2d.h"; sourceTree = SOURCE_ROOT; };
 		BB391CCD362A34250B83E330 /* v_compute_2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v_compute_2d.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/v_compute_2d.cpp"; sourceTree = SOURCE_ROOT; };
-		BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxDelaunay.cpp; path = ../../../addons/ofxDelaunay/src/ofxDelaunay.cpp; sourceTree = SOURCE_ROOT; };
 		C8916AC10821A16D6FD91CE7 /* ofxVoronoi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxVoronoi.cpp; path = ../../../addons/ofxVoronoi/src/ofxVoronoi.cpp; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* tSNEPlotDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tSNEPlotDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +81,6 @@
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E5565AD6CF66D6A14BDF7EA1 /* Delaunay.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Delaunay.h; path = ../../../addons/ofxDelaunay/libs/Delaunay/Delaunay.h; sourceTree = SOURCE_ROOT; };
 		EAA90031A974BD6F903EE307 /* common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = common.cpp; path = "../../../addons/ofxVoronoi/libs/Voro++2D/common.cpp"; sourceTree = SOURCE_ROOT; };
 		F0AC5D70AE4C84546031AEF3 /* c_loops_2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = c_loops_2d.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/c_loops_2d.h"; sourceTree = SOURCE_ROOT; };
 		F718FBC5EBF3DEA288E267A4 /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = common.h; path = "../../../addons/ofxVoronoi/libs/Voro++2D/common.h"; sourceTree = SOURCE_ROOT; };
@@ -112,23 +106,6 @@
 				DCE8A7B08EDFFFB1FAB61B75 /* libs */,
 			);
 			name = ofxVoronoi;
-			sourceTree = "<group>";
-		};
-		4DDDE89A215FFC6D84084F64 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				A7F935964A1EB7154C211E37 /* Delaunay */,
-			);
-			name = libs;
-			sourceTree = "<group>";
-		};
-		5A296432AD6765AD9158F813 /* ofxDelaunay */ = {
-			isa = PBXGroup;
-			children = (
-				BA7CA251A8C3541F18ECFFC2 /* src */,
-				4DDDE89A215FFC6D84084F64 /* libs */,
-			);
-			name = ofxDelaunay;
 			sourceTree = "<group>";
 		};
 		60A0AA8E6C618972551872A8 /* src */ = {
@@ -177,28 +154,9 @@
 			name = "Voro++2D";
 			sourceTree = "<group>";
 		};
-		A7F935964A1EB7154C211E37 /* Delaunay */ = {
-			isa = PBXGroup;
-			children = (
-				2C93371FF2466553B4DA1D0B /* Delaunay.cpp */,
-				E5565AD6CF66D6A14BDF7EA1 /* Delaunay.h */,
-			);
-			name = Delaunay;
-			sourceTree = "<group>";
-		};
-		BA7CA251A8C3541F18ECFFC2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				BBE3E908E4BB3468853C50ED /* ofxDelaunay.cpp */,
-				8AA89AFF4E71C7EC510642B7 /* ofxDelaunay.h */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				5A296432AD6765AD9158F813 /* ofxDelaunay */,
 				33A9136E9711EC12A4D83980 /* ofxVoronoi */,
 			);
 			name = addons;
@@ -353,8 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				9102D0609CDD0B902F138C68 /* ofxDelaunay.cpp in Sources */,
-				5E39F94A08ADD7F0C2032152 /* Delaunay.cpp in Sources */,
 				E4D12C7804F05EBDDA41A7D4 /* ofxVoronoi.cpp in Sources */,
 				A7C009DCC409CEB85B4C01C0 /* c_loops_2d.cpp in Sources */,
 				82D05F10C282F9BA98B7BDDA /* cell_2d.cpp in Sources */,
